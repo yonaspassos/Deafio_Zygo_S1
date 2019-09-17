@@ -9,7 +9,7 @@ Decidi não utilizar frameworks.
 
 ## Para executar o programa
 1. Abra o arquivo *library.py*.
-2. Execute no terminal *python3 library.py case1.json* (cases de 1 a 5, devem estar na mesma pasta do arquivo *libray.py*).
+2. Execute no terminal *python3 library.py case1.json* (cases de 1 a 5, devem estar na mesma pasta do arquivo *library.py*).
 
 ## Para executar os testes
 1. Para executar o teste, deve estar na mesma pasta do arquivo *library.py*.

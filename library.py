@@ -14,7 +14,7 @@ def get_author_book(author):
 def get_year_book(year):
     return year["edition_year"]
 
-def ordenar(sort_direction):
+def sort(sort_direction):
     if sort_direction is None:
         return "Ordering Exception"
     if len(sort_direction) == 0:
@@ -33,4 +33,4 @@ if __name__ == "__main__":
     params = None
     if len(sys.argv) >= 2:
         params = json.load(open(sys.argv[1]))
-    print(ordenar(params))
+    print(sort(params))
